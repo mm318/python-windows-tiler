@@ -164,7 +164,7 @@ class Controller(object):
             monitor.tilers[i].tile_windows()
         self.group = i
         self.notifyicon.draw_icon(self.icon)
-        # Monitor.refresh_all_windows()
+        Monitor.refresh_all_windows()
 
         # find new window to focus on (method 1)
         # new_curr_win = Window.window_under_cursor(self.windows)
