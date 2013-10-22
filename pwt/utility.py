@@ -2,10 +2,10 @@ class Utility(object):
 
     @staticmethod
     def next_item(collection, item):
-        """
+        '''
         Returns the item after item
         Returns None if item isn't in collection
-        """
+        '''
         
         if item in collection:
         
@@ -15,10 +15,10 @@ class Utility(object):
 
     @staticmethod
     def previous_item(collection, item):
-        """
+        '''
         Returns the item before item
         Returns None if item isn't in collection
-        """
+        '''
 
         if item in collection:
 
